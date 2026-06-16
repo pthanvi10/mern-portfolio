@@ -92,7 +92,7 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#https://www.linkedin.com/in/praveen-thanvi/" target="_blank">
+                <a href="https://www.linkedin.com/in/praveen-thanvi/" target="_blank">
                   <Linkedin />
                 </a>
                 <a href="https://x.com/pthanvi10" target="_blank">
@@ -124,6 +124,7 @@ export const ContactSection = () => {
                   type="text"
                   id="name"
                   name="name"
+                  autoComplete="name" 
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
                   placeholder="Praveen Thanvi..."
@@ -142,6 +143,7 @@ export const ContactSection = () => {
                   type="email"
                   id="email"
                   name="email"
+                  autoComplete="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
                   placeholder="yourname@gmail.com"
@@ -157,6 +159,7 @@ export const ContactSection = () => {
                   Your Message
                 </label>
                 <textarea
+                  type="text"
                   id="message"
                   name="message"
                   required
