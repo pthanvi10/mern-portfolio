@@ -3,7 +3,7 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Artiqs",
+    title: "Artiqs ",
     description: "Full-Stack AI Image Generation SaaS",
     image: "/projects/project1.png",
     tags: ["MongoDB", "React.js", "Express", "Node.js", "Tailwind CSS"],
@@ -12,22 +12,22 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Quiz-learn ",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "E-Learning Platform for Quiz taking and Exam Prep.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: [ "MongoDB","React.js", "Express"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "SIP ",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Full-featured Student portal with user authentication and event management.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
+    tags: ["Flutter", "PHP", "MySQL"],
+    demoUrl: "https://sip-portal.infinityfreeapp.com/",
     githubUrl: "#",
   },
 ];
